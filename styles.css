@@ -1,0 +1,90 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background:linear-gradient(rgb(66, 147, 174), rgb(217, 162, 171));
+    font-family: 'Happy Monkey', cursive;
+    text-shadow: 0px 0px 2px black(232, 223, 223);
+    color:rgb(243, 221, 221);
+}
+
+.main-container{
+    margin:0 auto;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.pinky{
+    background-color: rgb(95, 88, 89);
+    padding: 4px 8px;
+    border-radius: 6px;
+}
+
+.main-container img{
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+    border:6px solid rgb(95, 88, 89);
+}
+#thank-you{
+    margin-top: -15px;
+}
+.presents-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.presents-container h3{
+    margin-top: -10px;
+}
+.gift-container{
+    width: 400px;
+    height: 400px;
+    background: url("gift-cover.jpg");
+    background-size: cover;
+    border: 6px solid white;
+    border-radius: 8px;
+    margin-bottom:40px;
+}
+.gift-container:last-child{
+    background: url("gift-cover.jpg");
+    background-size: cover;
+    height: 200px;
+    margin-top: 20px;
+}
+
+#gift-1:hover{
+    background: url("eternal.gif");
+    background-size: cover;
+}
+#gift-2:hover{
+    background: url("react.gif");
+    background-size: cover;
+}
+#gift-3:hover{
+    background: url("apreciate.gif");
+    background-size: cover;
+}
+#gift-4:hover{
+    background: url("best.gif");
+    background-size: cover;
+}
+#gift-5:hover{
+    background: url("cheers.gif");
+    background-size: cover;
+}
+
+
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-content: baseline;
+}
+
+
+footer a{
+    font-style: italic  ;
+    color:rgb(243, 221, 221);
+}
